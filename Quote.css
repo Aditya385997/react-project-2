@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.quote__container {
+  width: 35%;
+  /* height: 22vh; */
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 30px;
+  padding-bottom: 5px;
+  margin-top: 200px;
+  text-align: center;
+}
+.quote__container h2 {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+.quote__container p {
+  font-size: 0.9rem;
+  color: white;
+  text-align: right;
+}
+.quote__container button {
+  background-color: transparent;
+  margin-bottom: 5px;
+  float: right;
+}
